@@ -16,7 +16,7 @@ The front-end part of a website, also known as the client-side, refers to the pa
 ## 2)  What are tags in HTML? Explain the each category of tag with an Example.
 In HTML, tags are used to define the structure and elements of a web page. Tags are enclosed within angle brackets (<>) and come in pairs: an opening tag and a closing tag. The opening tag denotes the beginning of an element, while the closing tag denotes the end of that element. Some tags are:
 ### i. Heading tags
-Heading tags are used to define the headings or titles on a webpage. There are six levels of heading tags, from <h1> to <h6>. The <h1> tag represents the highest level of heading, and <h6> represents the lowest. Example:
+Heading tags are used to define the headings or titles on a webpage. There are six levels of heading tags, from h1 to h6. The h1 tag represents the highest level of heading, and h6 represents the lowest. Example:
 <h1>This is a h1 heading</h1>
 <h6>This is a h6 heading</h6>
 
@@ -31,7 +31,7 @@ Link tags are used to create hyperlinks or anchor links on a webpage. The <a> ta
 
 ### iv. Image tags
 Image tags are used to display images on a webpage. The <img> tag is used, and the src attribute specifies the image file's URL or path. Example:
-<img src="image.jpg" alt="Description of the image">
+(<img src="image.jpg" alt="Description of the image">)
 
 ### v. List tags
 List tags are used to create ordered (numbered) and unordered (bulleted) lists. The <ul> tag represents an unordered list, and the <ol> tag represents an ordered list. Each list item is denoted by the <li> tag. Example:
@@ -54,5 +54,7 @@ The Virtual DOM (Document Object Model) is a concept used in web development fra
 - Handling user interactions and input: Instead of directly updating the actual DOM, the Virtual DOM is used to calculate the difference between the previous state and the new state of the application. This process is known as reconciliation or diffing.
 - Updating the Actual DOM: Only the identified differences or updates are applied to the actual DOM, rather than re-rendering the entire UI. This selective update helps minimize the number of actual DOM manipulations, which can be computationally expensive and slow.
 - Re-rendering the UI: The updated Virtual DOM is rendered to the actual DOM, reflecting the changes made in the application's state. The UI is now in sync with the updated state, providing an updated user experience.
+
+##
 
 
