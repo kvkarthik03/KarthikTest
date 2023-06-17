@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    
+}
