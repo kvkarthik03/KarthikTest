@@ -56,23 +56,23 @@ The Virtual DOM (Document Object Model) is a concept used in web development fra
 
 ## 4) Mention some Differences between MySQL and No SQL
 ### MySQL:
--Relational database management system
--Uses structured query language (SQL)
--Follows a predefined schema
--Suitable for structured and tabular data
--Supports complex relational queries
--Vertically scalable with additional options for horizontal scaling
--Commonly used for content management systems, e-commerce platforms, financial systems
+- Relational database management system
+- Uses structured query language (SQL)
+- Follows a predefined schema
+- Suitable for structured and tabular data
+- Supports complex relational queries
+- Vertically scalable with additional options for horizontal scaling
+- Commonly used for content management systems, e-commerce platforms, financial systems
 
 ### NoSQL:
--Non-relational database management system
--Offers various data models (key-value, document, columnar, graph)
--Flexible and dynamic schema structures
--Horizontally scalable with ease
--Query languages specific to data models
--Emphasizes fast read/write operations
--Suitable for large-scale data, high-speed data ingestion, real-time analytics
--Used in social media platforms, IoT systems, event logging systems
+- Non-relational database management system
+- Offers various data models (key-value, document, columnar, graph)
+- Flexible and dynamic schema structures
+- Horizontally scalable with ease
+- Query languages specific to data models
+- Emphasizes fast read/write operations
+- Suitable for large-scale data, high-speed data ingestion, real-time analytics
+- Used in social media platforms, IoT systems, event logging systems
 
 
 
