@@ -47,5 +47,12 @@ List tags are used to create ordered (numbered) and unordered (bulleted) lists. 
 
 
 ## 3) Explain the working Procedure of Virtual DOM.
+The Virtual DOM (Document Object Model) is a concept used in web development frameworks, such as React, to improve the performance and efficiency of updating the user interface (UI) of a web application.
+- Initial Rendering: When a web application is loaded, Virtual DOM is created.
+- Creating Virtual DOM tree: The Virtual DOM tree is a representation of the structure and elements of the UI. It is created by mapping the components or elements of the application to corresponding Virtual DOM elements.
+- Rendering Virtual DOM into Actual DOM: The Virtual DOM is then rendered to the actual DOM for the initial display of the web application. The Virtual DOM elements are transformed into actual DOM elements and inserted into the browser's document structure.
+- Handling user interactions and input: Instead of directly updating the actual DOM, the Virtual DOM is used to calculate the difference between the previous state and the new state of the application. This process is known as reconciliation or diffing.
+- Updating the Actual DOM: Only the identified differences or updates are applied to the actual DOM, rather than re-rendering the entire UI. This selective update helps minimize the number of actual DOM manipulations, which can be computationally expensive and slow.
+- Re-rendering the UI: The updated Virtual DOM is rendered to the actual DOM, reflecting the changes made in the application's state. The UI is now in sync with the updated state, providing an updated user experience.
 
 
