@@ -74,5 +74,15 @@ The Virtual DOM (Document Object Model) is a concept used in web development fra
 - Suitable for large-scale data, high-speed data ingestion, real-time analytics
 - Used in social media platforms, IoT systems, event logging systems
 
+## 5) Explain any one DBMS Technology in your own words.
+### MongoDB
+MongoDB is a popular NoSQL (non-relational) database management system that stores and manages data in a flexible and scalable manner. It uses a document-oriented model, where data is stored as JSON-like documents with dynamic schemas.
+
+MongoDB is designed to handle large volumes of data, making it suitable for applications with high scalability requirements. It allows for horizontal scaling by distributing data across multiple servers, enabling efficient data storage and retrieval.
+
+In MongoDB, data is organized into collections, which are analogous to tables in traditional databases. Each document within a collection represents a record and can have its own unique structure. This flexibility allows for easy storage and retrieval of complex and evolving data.
+
+MongoDB provides a powerful query language with support for rich queries, indexing, and aggregation. It offers various query operators and supports complex search operations, making it well-suited for data-intensive applications that require flexible querying.
+
 
 
