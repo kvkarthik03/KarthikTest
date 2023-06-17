@@ -1,6 +1,6 @@
 # Test Answers - K V Karthik
 ## Part A
-##1) Mention the working of Internet Website in Terms of Front-end & Back-end Divisions
+## 1) Mention the working of Internet Website in Terms of Front-end & Back-end Divisions
 ### Front end
 The front-end part of a website, also known as the client-side, refers to the part of the website that the user interacts with directly. 
 
