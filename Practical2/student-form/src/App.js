@@ -1,68 +1,50 @@
-import React, { useState } from 'react';
+import './App.css';
 
-const StudentForm = () => {
-  const [studentData, setStudentData] = useState({
-    name: '',
-    age: '',
-    address: ''
-  });
-
-  const handleChange = (e) => {
-    setStudentData({
-      ...studentData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform any necessary actions with the studentData
-    console.log(studentData);
-    // Reset the form
-    setStudentData({
-      name: '',
-      age: '',
-      address: ''
-    });
-  };
-
+function App() {
   return (
-    <div>
-      <h2>Student Admission Form</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input
-            type="text"
-            name="name"
-            value={studentData.name}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Age:
-          <input
-            type="number"
-            name="age"
-            value={studentData.age}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Address:
-          <textarea
-            name="address"
-            value={studentData.address}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
+    <>
+    <div class="title"><h1 class="heading">Admission Form</h1></div>
+    <div class="container">
+      <form class="form">
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" />
+
+        <label htmlFor="dob">Date of Birth:</label>
+        <input type="date" id="dob" />
+
+        <label htmlFor="phone">Phone number:</label>
+        <input type="tel" id="phone" />
+
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" />
+
+        <label htmlFor="address">Address:</label>
+        <textarea id="address" rows="4"></textarea>
+
+        <label htmlFor="father">Father's Name:</label>
+        <input type="text" id="fname" />
+
+        <label htmlFor="foccup">Father's Occupation</label>
+        <input type="text" id="foccup" />
+
+        <label htmlFor="mother">Mother's Name</label>
+        <input type="text" id="mname" />
+
+        <label htmlFor="moccup">Mother's Occupation</label>
+        <input type="text" id="moccup" />
+
+        <label htmlFor="course">Enter course</label>
+        <select>
+          <option>Select your course</option>
+          <option>Computer Science</option>
+          <option>Electronics and Communication</option>
+          <option>Information Science</option>
+        </select><br />
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
-};
+}
 
-export default StudentForm;
+export default App;
