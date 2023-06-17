@@ -30,8 +30,7 @@ Link tags are used to create hyperlinks or anchor links on a webpage. The <a> ta
 <a href="https://www.example.com">Visit Example</a>
 
 ### iv. Image tags
-Image tags are used to display images on a webpage. The <img> tag is used, and the src attribute specifies the image file's URL or path. Example:
-(<img src="image.jpg" alt="Description of the image">)
+Image tags are used to display images on a webpage. The <img> tag is used, and the src attribute specifies the image file's URL or path. 
 
 ### v. List tags
 List tags are used to create ordered (numbered) and unordered (bulleted) lists. The <ul> tag represents an unordered list, and the <ol> tag represents an ordered list. Each list item is denoted by the <li> tag. Example:
@@ -55,6 +54,25 @@ The Virtual DOM (Document Object Model) is a concept used in web development fra
 - Updating the Actual DOM: Only the identified differences or updates are applied to the actual DOM, rather than re-rendering the entire UI. This selective update helps minimize the number of actual DOM manipulations, which can be computationally expensive and slow.
 - Re-rendering the UI: The updated Virtual DOM is rendered to the actual DOM, reflecting the changes made in the application's state. The UI is now in sync with the updated state, providing an updated user experience.
 
-##
+## 4) Mention some Differences between MySQL and No SQL
+### MySQL:
+-Relational database management system
+-Uses structured query language (SQL)
+-Follows a predefined schema
+-Suitable for structured and tabular data
+-Supports complex relational queries
+-Vertically scalable with additional options for horizontal scaling
+-Commonly used for content management systems, e-commerce platforms, financial systems
+
+### NoSQL:
+-Non-relational database management system
+-Offers various data models (key-value, document, columnar, graph)
+-Flexible and dynamic schema structures
+-Horizontally scalable with ease
+-Query languages specific to data models
+-Emphasizes fast read/write operations
+-Suitable for large-scale data, high-speed data ingestion, real-time analytics
+-Used in social media platforms, IoT systems, event logging systems
+
 
 
